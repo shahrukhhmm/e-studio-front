@@ -1,0 +1,251 @@
+.profile-header {
+  width: auto;
+  height: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url("https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.7;
+  z-index: -10;
+}
+
+.profile-content {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-image {
+  height: 250px;
+  width: 250px;
+  margin-right: 20px;
+  position: relative; /* Add this */
+
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-image:hover {
+  
+  /* Add this class when hovered */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.profile-image.hovered.profile-img-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  cursor: pointer;
+  display: none;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-info h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-info h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.bio {
+  margin-top: 20px;
+}
+
+.bio input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.profile-img-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  cursor: pointer;
+  display: none;
+}
+
+.profile-image:hover .profile-img-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightgray;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-section {
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.top-menu {
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+  margin: 20px 20px;
+  padding: 10px 10px;
+}
+
+#imageInput {
+  display: none;
+}
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  /* background: #f1f1f1; */
+  word-break: break-all;
+  /* border: 1px solid rgba(0, 0, 0, 0.274); */
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.bloc-tabs button {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  border: none;
+}
+
+.tabs {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+}
+
+.right-side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-side button {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #333333;
+  box-shadow: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+  line-height: 20px;
+  border: 1px solid #333333;
+}
+
+.right-side button:nth-child(1) {
+  margin-right: 8px;
+}
+
+.following-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #999999;
+  font-size: 16px;
+  padding: 30px 30px;
+  font-family: Inter, sans-serif;
+}
+
+.following-box div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 10px;
+  gap: 10px;
+  letter-spacing: normal;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}

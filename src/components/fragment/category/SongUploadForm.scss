@@ -1,0 +1,50 @@
+.main {
+  background-image: url("../../assets/img/upload song.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .song-upload-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #4f4f4f26;
+    // border: 1px solid #ddd;
+    // border-radius: 8px;
+
+    div {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="file"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 2px solid black;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px 15px;
+      background-color: #000000;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #990e0e;
+      }
+    }
+  }
+}

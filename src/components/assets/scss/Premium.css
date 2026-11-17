@@ -1,0 +1,382 @@
+/* Premium.css
+
+.bg-image {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.des h1 {
+    font-size: 3rem;
+    text-align: center;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.info {
+    text-align: center;
+    animation: slideInUp 1s ease-in-out;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.info p {
+    margin-top: 10px;
+}
+
+.btn-3, .btn-4 {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-3:hover, .btn-4:hover {
+    background-color: #303f9f;
+}
+
+.Tag h1 {
+    font-size: 2.5rem;
+    color: white;
+    animation: zoomIn 1s ease-in-out;
+}
+
+.Plans {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeInUp 1s ease-in-out;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.Plans:hover {
+    transform: scale(1.05);
+}
+
+.Plans h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.Plans p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.Plans h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.plans-des {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+    text-align: center;
+}
+
+.plans-des h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.plans-des p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+} */
+
+
+/* Updated Code */
+
+
+.bg-image {
+    background-image: url('../img/pexels-ellis-1389429.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.des h1 {
+    margin-top: 20px;
+    font-size: 6rem;
+    /* text-align: center; */
+    animation: slideInDown 1s ease-in-out;
+}
+.card{
+    /* text-align: center; */
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.info {
+    margin-top: 40px;
+    text-align: center;
+    animation: slideInUp 1s ease-in-out;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.info p {
+    margin-top: 10px;
+}
+
+.btn-3, .btn-4 {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-3:hover, .btn-4:hover {
+    background-color: #303f9f;
+}
+
+.Tag h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 2.5rem;
+    color: white;
+    animation: zoomIn 1s ease-in-out;
+}
+
+.Plans {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeInUp 1s ease-in-out;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    backdrop-filter: blur(10px);
+}
+
+.Plans:hover {
+    transform: scale(1.05);
+}
+
+.Plans h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.Plans p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.Plans h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.plans-des {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1.5s ease-in-out;
+    text-align: center;
+}
+
+.plans-des h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.plans-des p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Additional styling to ensure the two sections are on separate pages */
+.page-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-section + .page-section {
+    margin-top: 100vh; /* This ensures the second section is visible only after scrolling down */
+}
+
+@media (max-width: 768px) {
+    .Plans {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}

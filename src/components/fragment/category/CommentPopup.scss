@@ -1,0 +1,70 @@
+// CommentPopup.scss
+
+.comment-popup {
+    // Styles for the popover container
+    .comment-popup__content {
+      padding: 20px;
+  
+      h2 {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+  
+        li {
+          margin-bottom: 8px;
+          font-size: 16px;
+          // Style individual comment items
+        }
+      }
+  
+      .comment-popup__input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+  
+        &:focus {
+          outline: none;
+          border-color: #007bff; // Example focus color
+        }
+      }
+  
+      .comment-popup__button {
+        padding: 8px 16px;
+        margin-right: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+  
+        &:last-child {
+          margin-right: 0;
+        }
+  
+        &.submit {
+          background-color: #007bff;
+          color: white;
+  
+          &:hover {
+            background-color: #0056b3; // Darker shade on hover
+          }
+        }
+  
+        &.close {
+          background-color: #ccc;
+  
+          &:hover {
+            background-color: #b3b3b3; // Darker shade on hover
+          }
+        }
+      }
+    }
+  }
+  
